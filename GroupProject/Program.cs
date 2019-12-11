@@ -7,6 +7,7 @@ namespace GroupProject
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Oliver!");
+            Console.WriteLine("Hello every one!");
         }
     }
 }
