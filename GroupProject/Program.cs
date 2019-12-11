@@ -17,8 +17,10 @@ namespace GroupProject
             for(int i = 0; i < 100; i++){
                 Console.WriteLine(i.ToString());
                 Console.WriteLine(i.ToString());
-
             }
+            var name = new NewClass("jlfjsd kjsdjlfjs kjsfklsjfd");
+            Console.WriteLine(name.GetName()); 
+
         }
     }
 }
