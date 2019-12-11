@@ -11,10 +11,13 @@ namespace GroupProject
             Console.WriteLine("Hello Oliver!");
             Console.WriteLine("Hello Oliver!");
             Console.WriteLine("Hello Oliver!");
+            Console.WriteLine("Hello Jack's branch!");
             Console.WriteLine($"str {3 + 5} .....!");
             Console.WriteLine("Hello every one!");
             for(int i = 0; i < 100; i++){
                 Console.WriteLine(i.ToString());
+                Console.WriteLine(i.ToString());
+
             }
         }
     }
