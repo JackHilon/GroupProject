@@ -18,7 +18,7 @@ namespace GroupProject
                 Console.WriteLine(i.ToString());
                 Console.WriteLine(i.ToString());
             }
-            var name = new NewClass("jlfjsd kjsdjlfjs kjsfklsjfd");
+            var name = new NewClass("jlfjsd kjsdjlfjs kjsfklsjfd", 8);
             Console.WriteLine(name.GetName()); 
 
         }

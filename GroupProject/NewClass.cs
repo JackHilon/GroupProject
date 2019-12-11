@@ -7,15 +7,23 @@ namespace GroupProject
     class NewClass
     {
         public string StringName;
+        public int NumberId;
+        public bool BoolSrtring;
 
-        public NewClass(string stringName)
+        public NewClass(string str, int id)
         {
-            StringName = stringName;
+            this.StringName = str;
+            this.NumberId = id;
+            this.BoolSrtring = true;
         }
 
         public string GetName()
         {
-            return this.StringName;
+            if (this.StringName != null)
+            {
+                return this.StringName;
+            }
+            else return null;
         }
     }
 }
