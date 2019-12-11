@@ -12,6 +12,8 @@ namespace GroupProject
             Console.WriteLine("Hello every one!");
             for(int i = 0; i < 100; i++){
                 Console.WriteLine(i.ToString());
+                Console.WriteLine(i.ToString());
+
             }
         }
     }
